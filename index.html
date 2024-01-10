@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/julekort.css">
+    <title>Julekortgenerator</title>
+</head>
+<body>
+    <div id="julekort-generator">
+        <h1>Julekortgenerator</h1>
+        <label for="julehilsen-input">Skriv inn din julehilsen:</label>
+        <textarea id="julehilsen-input" placeholder = "Skriv din hilsen her..."></textarea>
+        <label for="from-input">Fra:</label>
+        <input type="text" id="from-input"></input><br>
+        <button onclick="genererJulekort()">Generer Julekort</button>
+    </div>
+    <div id="julekort">
+        <!-- Julekortet vil vises her -->
+    </div>
+    <script src="Java/Julekort.js"></script>
+</body>
+</html>
