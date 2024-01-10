@@ -13,6 +13,6 @@ function genererJulekort() {
     julekortDiv.innerHTML = `
         <h2 id='GJ'>God Jul!</h2>
         <p id='helsing'>${julehilsen}</p>
-        <h3 id='from'>${from}</h3>
+        <h3 id='from'>Helsing ${from}</h3>
     `;
 }
